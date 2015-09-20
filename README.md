@@ -10,7 +10,7 @@ With the app, you can:
 * Watch trailers
 * Read reviews
 
-## How to Work with the Source
+## Add your API-KEY
 
 This app uses [The Movie Database](https://www.themoviedb.org/documentation/api) API to retrieve movies.
 You must provide your own API key in order to build the app. When you get it, just paste it to:
@@ -18,41 +18,16 @@ You must provide your own API key in order to build the app. When you get it, ju
     app/build.gradle
     ```
 
-## Screens
-
-![screen](../master/art/phone-movies.png)
-
-![screen](../master/art/phone-details.png)
-
-![screen](../master/art/tablet-port.png)
-
-![screen](../master/art/tablet-land.png)
-
 ## Libraries
 
-* [ButterKnife](https://github.com/JakeWharton/butterknife)
-* [Dagger](https://github.com/square/dagger)
-* [Retrofit](https://github.com/square/retrofit)
-* [SQLBrite](https://github.com/square/sqlbrite)
 * [RxJava](https://github.com/ReactiveX/RxJava)
 * [RxAndroid](https://github.com/ReactiveX/RxAndroid)
 * [Glide](https://github.com/bumptech/glide)
 * [GlidePalette](https://github.com/florent37/GlidePalette)
 * [Android-ObservableScrollView](https://github.com/ksoichiro/Android-ObservableScrollView)
 * [Gradle Retrolambda Plugin](https://github.com/evant/gradle-retrolambda)
+* [ButterKnife](https://github.com/JakeWharton/butterknife)
+* [Dagger](https://github.com/square/dagger)
+* [Retrofit](https://github.com/square/retrofit)
+* [SQLBrite](https://github.com/square/sqlbrite)
 
-## License
-
-    Copyright 2015 Udit Gupta
-
-    Licensed under the Apache License, Version 2.0 (the "License");
-    you may not use this file except in compliance with the License.
-    You may obtain a copy of the License at
-
-        http://www.apache.org/licenses/LICENSE-2.0
-
-    Unless required by applicable law or agreed to in writing, software
-    distributed under the License is distributed on an "AS IS" BASIS,
-    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-    See the License for the specific language governing permissions and
-    limitations under the License.
